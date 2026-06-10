@@ -1,0 +1,417 @@
+\documentclass[12pt]{article}
+\usepackage{sbc-template}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+%\usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\usepackage{graphicx, url}
+
+\usepackage [colorlinks=true, linkcolor=blue, citecolor=black, urlcolor=blue, filecolor=blue] {hyperref}
+\usepackage{indentfirst}
+\usepackage{setspace}
+%\usepackage[brazil]{babel}
+%\usepackage{csquotes}
+
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+     
+\sloppy
+
+\title{A Fragilidade Humana diante da Inteligência Artificial:\\ dependência afetiva e consequências sociais}
+
+\author{Aisha C. Rodrigues da Silva\inst{1}, Paula M. Alves de Oliveira\inst{2} }
+
+\address{Instituto de Ciências Exatas e Informática -- \\Pontifícia Universidade Católica de Minas Gerais (PUC Minas)\\
+  Caixa Postal 15.064 -- 91.501-970 -- Belo Horizonte -- MG -- Brazil
+\nextinstitute
+  \email{\ aisha.camille@sga.pucminas.br, paula.oliveira1467820@sga.pucminas.br}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{resumo} 
+  O conceito da Inteligência Artificial (IA) vem sendo pesquisada e desenvolvida durante os anos de 1950 até os momentos de hoje, sendo cada vez mais popularizada e consumida a nível mundial.
+  No Brasil, o consumo da Inteligência Artificial chega a ser 93\% da população, causando em que 1 a cada 10 brasileiros acabem desenvolvendo um afeto artificial. Segundo estudos, a solidão entre humanos os levam a procurarem esse tipo de relação com uma IA, que é nada mais que um algoritmo que aprende a forma em que se deve comportar de acordo com cada pessoa. Além da dependência emocional, CFP (Conselho Federal da Psicologia) alerta que uso de IA para tratamento psicológico pode resultar na piora do estado mental do indivíduo, tardando a ida até um profissional.
+\end{resumo}
+
+\section{Introdução}
+\hspace{1.2cm}O nome da Inteligência Artificial (I.A.) teve sua primeira menção a ser discutida em meados do decorrer dos anos de 1950. Essa discussão iniciou-se devido ao interesse de suprir o objetivo contínuo de construir máquinas com capacidades similares às de humanos da realidade. A discussão se deu início em virtude da publicação de um artigo escrito pelo matemático e pioneiro da computação, \textbf{Alan Turing} com a pergunta "As máquinas podem pensar?", onde o precursor computacional sugere os Testes de Turing (T.T.), onde um computador deve responder uma pergunta feita por um humano. O teste seria aprovado dependendo do quão evidente e aceitável seria a resposta dada pela máquina.
+
+Relatos históricos indicam que as primeiras investigações voltadas às redes neurais e ao estudo do comportamento de neurônios datam de 1943. Contudo, foi apenas em 1959 que se alcançou êxito na simulação da resolução de um problema por meio de redes neurais em um computador. No início da década de 1960, realizaram-se importantes conferências que discutiam as potenciais implicações e impactos que as redes neurais e a inteligência artificial poderiam ocasionar para a humanidade. Entretanto, esse avanço foi interrompido pelo denominado "inverno da I.A.", período marcado pela estagnação das pesquisas na área em razão de limitações tecnológicas e ceticismo científico. Somente entre 1982 e 1985 o campo retomou notoriedade, consolidando-se novamente como objeto de interesse acadêmico e científico, o que resultou em estudos mais consistentes e aprofundados que contribuíram para o progresso subsequente da área.
+
+Nos últimos anos, tem sido registrada uma ampla utilização da inteligência artificial no Brasil. Em 2024, organizações como Ipsos e Google apontaram que cerca de 54\% da população fazia uso de I.A. generativa, enquanto a média mundial era de 48\%. Já em 2025, veículos de comunicação como a CNN Brasil divulgaram que a utilização dessa tecnologia atingiu 93\% da população, embora apenas 54\% afirmassem compreender de fato o que a ferramenta representa. Esse cenário impacta diretamente aspectos relacionados à produtividade, uma vez que grande parte dos usuários passa a depositar elevada confiança nas informações fornecidas por chatbots, tratando-as como fontes factuais. No entanto, conforme destacado pela \textit{MIT Technology Review}, a inteligência artificial ainda demandará anos de desenvolvimento até que seus potenciais benefícios possam ser plenamente verificados. \cite{agenciabrasil2025ia} \cite{cnnbrasil}
+
+A discussão sobre o tema se tornou adequada em razão à alta concentração de relatos diversos — ganhando cada vez mais evidência ao longo da década do ano de 2020, onde a inteligência artificial alcança uma popularidade abundante — relacionados a vínculos socioafetivos artificiais criados pelas pessoas com determinadas inteligências artificiais. Apesar do objetivo inicial da inteligência artificial ser sobre criar máquinas com capacidades similares ao de humanos, busca-se, assim a facilitação do vida cotidiana das pessoas, o artigo vem sendo elaborado com objetivo de uma compreensão mais adequada sobre o impasse apresentado e conceder uma consideração sobre a temática significativa a uma análise crítica das consequências afetivas criadas por tais vínculos.
+
+%\section{Referencial Teórico}
+\section{Inteligência Artificial Cognitiva}
+
+\subsection{Conceito de IA Cognitiva} 
+
+A Inteligência Artificial Cognitiva (IAC) pode ser compreendida como um modelo de funcionamento de sistemas de IA cujo objetivo é replicar e simular processos cognitivos humanos, sem a necessidade de supervisão constante, sendo projetada para compreender situações complexas e tomar decisões de maneira semelhante ao raciocínio humano. \cite{stefanini2024}
+
+	A implementação desse tipo de sistema demanda elevada capacidade de processamento computacional, uma vez que se baseia na análise de dados estruturados e não estruturados, empregando técnicas de aprendizado de máquina (Machine Learning, ML) e outras abordagens de aprendizado adaptativo. \cite{stefanini2024}
+    
+    %Por meio desses recursos, a IAC busca representar uma capacidade de raciocínio análoga à humana, especialmente em contextos que envolvem múltiplas variáveis, incertezas ou dependência de fatores dinâmicos. 
+
+Um dos principais benefícios tragos através desse recurso cognitivo podem ser definidas por uma automatização eficiente na produtividade e melhoras tomadas de decisões organizacionais. Com a grande exposições aos dados, a IAC também possibilita com que seus usuários tenham experiências personalizadas, desenvolvendo fundamentos na identificação e preferência individual de cada. \cite{dataCamp2024}
+
+Assim como um dos desafios sofridos por essa tecnologia, pode-se variar entre complicações técnicas, sociais e éticos, dando destaque sobre a privacidade dos dados dos usuários, que são utilizados para aprimoramento do Machine Learning. A rigorosidade no estabelecimento de diretrizes regulatórias e princípios éticos sobre o uso responsável e seguro da área cognitiva da computação se tornam debates indispensáveis. \cite{dataCamp2024}
+
+\subsection{Modelos Conversacionais e Aprendizado com Usuários Jovens}
+
+ Retratamos uma IA conversacional como uma vertente à simulação de interações humanas via chatbots ou agentes virtuais, capacitadas em comunicar com os usuários de maneira natural e contextual. \cite {ibm2025} Essa funcionalidade consiste na combinação técnica de componentes como ML e processamento de linguagem natural (Natural Language Processing, NLP), e baseado na compreensão linguagem natural (Natural Language Understanding, NLU) permitindo a compreensão da mensagem além do aperfeiçoamento contínuo dos algoritmos nas interações realizadas. 
+
+	
+
+	A facilidade com que a IAC fornece respostas rápidas e acessíveis aos usuários tem impacto direto no desenvolvimento cognitivo de jovens. \cite{jornalCasarao2025} Diversos educadores têm manifestado preocupação, uma vez que o uso recorrente dessas tecnologias favorecem a formação da dependência tecnológica, reduzindo a autonomia intelectual e pensamento crítico dos estudantes. 
+   
+
+\subsection{Limitações Técnicas em Detecção de Sofrimento Psicológico}
+
+Embora a IA apresente capacidade para identificar e aprender padrões complexos, suas limitações tornam-se evidentes quando se trata de realizar julgamentos clínicos com a profundidade e a sensibilidade de um profissional especializado em psicologia ou psicanálise.\cite{conex2023} 
+
+As linguagens de programação também representam um fator determinante nas limitações técnicas das máquinas, uma vez que delimitam como os algoritmos processam, interpretam e respondem aos dados, impactando diretamente na capacidade da IA de realizar julgamentos clínicos precisos, que são refinadas e desenvolvidas por profissionais de saúde mental. 
+
+\subsection{Comunicação Humano–IA em Contextos Juvenis}
+
+O uso de chatbots por jovens aumenta gradativamente, motivado pela facilidade de acesso e pela percepção de anonimato que esses recursos podem proporcionar. A crescente popularidade de chatbots terapêuticos entre os jovens indica uma necessidade emocional e a procura por uma escuta "sem julgamento". Contudo, é fundamental distinguir a interação com um bot, que é uma simulação baseada em algoritmos, do atendimento de um profissional de saúde mental, que proporciona empatia e compreensão autênticas. \cite{g12024}
+\subsection{Digitalização das Relações Interpessoais na Juventude}
+
+A digitalização das relações pessoais mudou a forma como os jovens se socializam, com plataformas online e redes sociais servindo como principais espaços de interação. A convivência digital pode afastar o contato físico, favorecendo as interações mediadas por telas em vez da comunicação pessoal. A exposição contínua a interações sociais nas redes sociais pode resultar em comparações, pressão para aceitação e, muitas vezes, ao cyberbullying, prejudicando a saúde mental dos jovens. \cite{geo2025}
+\subsection{Antropomorfização e Confiança na IA por Públicos Vulneráveis}
+
+Na interação com a IA, a tendência de antropomorfizar, ou seja, de atribuir traços e sentimentos humanos a entidades não-humanas, é especialmente significativa. Confiar demais na IA, especialmente em situações delicadas que necessitam de um apoio emocional, pode ser arriscado, devido aos sistemas de IA não entenderem a complexidade das emoções humanas, oferecer informações impróprias. \cite{unit2025}
+
+
+\subsection{Empatia Artificial e Saúde Emocional}
+
+A interação cada vez maior de jovens com interfaces de IA que imitam empatia e compreensão traz questões importantes a saúde emocional. No entanto, essa conexão por meio da tecnologia, mesmo que consiga suprir algumas necessidades de interação para os adolescentes, traz um grande risco sobre a compreensão de sentimentos complexos, afetando assim o desenvolvimento emocional em grupos vulneráveis. 
+
+%A IA aparece em várias formas, como assistentes virtuais e chatbots, todos elaborados para fornecer respostas que imitam a forma como um humano entenderia. 
+
+\subsubsection{Simulação de Afeto e Respostas Empáticas}
+
+As IAs apenas simulam emoções como carinho e amor por meio de algoritmos que interpretam a linguagem do usuário e geram respostas programadas para parecer empáticas. Chatbots terapêuticos usam essa estratégia para oferecer apoio superficial, mas acolhedor. Embora possam proporcionar alívio momentâneo, não compreendem emoções reais e baseiam-se apenas em dados. A exposição constante a esse tipo de interação pode reduzir o valor das relações humanas e gerar dependência de um apoio artificial.  \cite{fast2025}
+
+%Quando as IAs demonstram carinho ou amor, na verdade, elas estão apenas simulando essas emoções por meio de algoritmos que interpretam a linguagem do usuário e geram respostas pré-programadas para criar a ilusão de um apoio emocional. Essa estratégia é empregada por chatbots terapêuticos e companhia para oferecer respostas superficiais, mas empáticas, a jovens que desejam compartilhar suas preocupações. Enquanto essas interações podem trazer um alívio momentâneo, elas carecem de uma verdadeira compreensão emocional, baseando-se apenas em um processamento de dados que simula a empatia.  A constante exposição a esse tipo de apoio artificial pode resultar na diminuição do valor das interações genuínas e na dependência de uma fonte de "apoio" que não oferece a complexidade e a profundidade de uma relação humana verdadeira.
+
+%\subsubsection{Quando a IA Falha em Intervenção Emocional}
+
+%Quando se trata de crises psicológicas, fica ainda mais claro como a IA não consegue realizar intervenções emocionais adequadas. Há relatos de situações em que adolescentes em crise extrema recorreram a chatbots e obtiveram respostas inadequadas, que minimizavam a gravidade do problema ou ofereciam informações prejudiciais.  A incapacidade de avaliação contextual e a falta de verdadeira cognição emocional fazem com que a IA não consiga lidar com a complexidade e a sutileza das crises psicológicas. O perigo de uma intervenção inadequada ou ineficaz da IA é que, em vez de fornecer o suporte necessário, ela pode acabar intensificando a situação emocional da pessoa. A intervenção de profissionais de saúde mental qualificados é algo que não pode ser substituído. \cite{g12025}
+
+\subsubsection{Limites da Empatia Programada diante de Crises Psicológicas}
+
+A empatia genuína pode ser definida pela habilidade de conseguir compreender os sentimentos de outra pessoa, considerando também as linguagens corporais e experiências pessoais. No entanto, a simulação feita pela IA é limitada devido as suas linguagens de programação, incapaz de captar interações mais complexas. como luto, depressão ou ansiedade, por exemplo, afetando na efetividade do suporte psicológico. \cite{alex2024}
+%Genuína, empatia é um fenômeno complexo: reconhecer, compreender e sentir o que o outro sente, levando em conta o contexto, a linguagem corporal e as experiências pessoais.  A empatia que a IA pode simular é, no entanto, limitada a regras e dados, sem conseguir capturar a complexidade das interações humanas. Em situações de crise psicológica, como o luto, a perda de um ente querido ou durante episódios de ansiedade e depressão, a IA não consegue proporcionar o tipo de suporte abrangente e individualizado que um profissional humano pode oferecer. Não há como o afeto programado, mesmo que bem-intencionado, sobrepujar a profundidade das emoções humanas e, por isso, é imprescindível que se priorize o contato humano e o apoio profissional em vez de se depender da tecnologia para a saúde.
+
+\subsection{Relações Afetivas e Dependência Tecnológica em Jovens}
+
+%A presença da tecnologia na vida dos jovens tem transformado suas relações emocionais, trazendo novas maneiras de interação por meio de dispositivos. A dependência tecnológica, um fenômeno em crescimento, tem gerado discussões na relação da forma como os jovens constroem vínculos emocionais, intensificando o debate sobre a qualidade e a autenticidade das relações humanas na era digital. Essa situação exige uma avaliação cuidadosa e detalhada dos efeitos dessa dependência na saúde mental e nas relações sociais dos jovens.
+
+\subsubsection{Solidão, Ansiedade e Busca de Conforto Digital}
+
+O uso excessivo de aparelhos digitais e a imersão em ambientes virtuais podem aumentar a solidão e a ansiedade entre os jovens. A grande exposições as redes podem levar a diminuição de autoestima. A interação com a IA pode ser vista como um escape emocional. No entanto, pode ocultar a demanda por suporte humano e intensificar o isolamento social. \cite{cnu2025}
+
+%A procura por aprovação social nas redes, a exposição a vidas que parecem perfeitas e a comparação constante com os demais podem levar a sentimentos de inadequação e diminuição da autoestima. Nessas situações, o ambiente digital, que deveria funcionar como um instrumento de conexão, pode transformar-se em um refúgio de conforto enganoso.
+
+\subsubsection{Relações Parasociais entre Jovens e IA}
+
+Um relacionamento parasocial normalmente é descrito sobre uma ligação unidirecional para personalidades públicas ou fictícias, abrangendo também as interações com IA. Essa situação é alarmante, uma vez que a natureza unilateral da relação pode comprometer a compreensão de uma conexão interpessoal saudável, caracterizada pela reciprocidade mútuo. \cite {puc2025}
+%Os jovens têm criado laços afetivos com esses dispositivos, vendo-os como confidentes ou companheiros de conversa. Estabelecer vínculos com entidades não-humanas pode prejudicar a habilidade dos jovens de criar e manter relacionamentos autênticos, fundamentados na empatia e na compreensão recíproca.
+
+%\subsubsection{Substituição de Vínculos Humanos por Interações com Máquinas}
+
+%A substituição gradual das relações humanas por interações com máquinas é o principal risco da dependência tecnológica. Conforme a IA avança em simular respostas emocionais, surge um risco concreto de que os jovens optem pela previsibilidade e pelo "não-julgamento" de um chatbot em vez da complexidade e das falhas inerentes às relações humanas. Essa tendência pode resultar no enfraquecimento das habilidades sociais e na atrofia da habilidade de gerenciar conflitos e sutilezas emocionais em interações presenciais. A troca do afeto humano pelo digital impede os jovens de vivências fundamentais para o crescimento de empatia, compaixão e resiliência emocional, características que a IA, devido à sua natureza algorítmica, não consegue reproduzir. \cite {bras2024}
+
+\subsection{Impactos Psicológicos e Riscos}
+
+%Estudos recentes indicam que o uso contínuo e intenso de sistemas de Inteligência Artificial (IA) pode favorecer o desenvolvimento de vínculos emocionais entre usuários e tecnologias, os quais, em determinados casos, podem evoluir para formas de dependência afetiva ou psicológica. Essa relação de apego artificial tem sido associada ao surgimento de sintomas semelhantes aos observados em transtornos delirantes, caracterizados por crenças fixas e falsas que contradizem a realidade objetiva. Tais manifestações despertam preocupações entre profissionais da saúde mental, especialmente pelo fato de que muitos sistemas de IA são projetados para manter altos níveis de engajamento e interação contínua com o usuário, o que pode intensificar realidades imaginárias e dificultar a distinção entre o real e o virtual em indivíduos mais vulneráveis psicologicamente. \cite{national2025}
+
+\subsubsection{Vulnerabilidade Emocional na Adolescência}
+
+Muitos jovens desenvolvem cada vez mais a dependência tecnológica e recursos digitais, incluindo a IA. Para suprir suas necessidades de conexão e reconhecimento, muitos jovens recorrem a sistemas de IA conversacional em busca de validação emocional, sensação de companhia constante e orientação sobre aspectos pessoais de suas vidas. \cite{divmagic2025}
+
+	%As interações frequentes e prolongadas com sistemas de IA podem favorecer a formação de vínculos emocionais artificiais, levando parte dos usuários a uma dependência afetiva em relação ao ambiente virtual. Esse fenômeno contribui para a rejeição gradual da realidade e para um aumento significativo do isolamento social, além de comprometer o desenvolvimento de habilidades socioemocionais essenciais para a convivência humana. \cite{divmagic2025}
+
+	Especialistas ressaltam que a adolescência constitui uma das fases mais críticas do desenvolvimento humano. No entanto, a exposição prolongada a interações mediadas por chatbots podem impactar esse processo de forma significativa, uma vez que o córtex pré-frontal, região responsável pela tomada de decisões, controle de impulsos e julgamento emocional, ainda não está completamente desenvolvido. Essa imaturidade neurológica torna mais complexa a diferenciação entre emoções reais e simuladas, prejudicando o desenvolvimento social, emocional e cognitivo. \cite{divmagic2025}
+%Estudos e relatos apontam que indivíduos que desenvolvem esse tipo de dependência tendem a apresentar comportamentos antissociais, quadros de ansiedade, sintomas depressivos, entre outras alterações emocionais e comportamentais.
+
+\subsubsection{Automutilação, Ideação Suicida e Conversas com IA}
+
+Em julho de 2025, a Organização Mundial da Saúde (OMS) divulgou um relatório que estimou que o isolamento social estaria associado a mais de 800 mil mortes anuais no mundo. Diante desse cenário, o Setembro Amarelo daquele ano foi dedicado à análise do isolamento digital e ao impacto dos recursos tecnológicos de apoio emocional baseados em chatbots de IA. \cite{gov2025}
+
+
+	O uso desequilibrado, não supervisionado e não regulamentado dessas tecnologias pode comprometer habilidades interpessoais, autopercepção emocional e processos de amadurecimento psicológico, ampliando a vulnerabilidade a quadros de dependência tecnológica e isolamento afetivo. \cite{gov2025}
+
+    Diante do aumento dos casos relacionados a comportamentos auto lesivos, sobretudo entre jovens, as empresas responsáveis pelo desenvolvimento de chatbots têm implementado mecanismos de monitoramento e segurança em suas plataformas. Entre essas medidas, destaca-se a indicação preventiva de comportamentos de risco e a aplicação de controles parentais dos usuários menores de idade, visando reduzir a exposição a conteúdos sensíveis e promover um uso mais seguro e responsável dessas tecnologias. \cite{g1Suc2025}
+
+    %com maior incidência entre adolescentes. Os riscos decorrentes da formação de vínculos digitais entre adolescentes e sistemas de IA estão relacionados à degradação de estímulos fundamentais ao desenvolvimento cognitivo, emocional e social. 
+
+\subsubsection{Falhas de Detecção e Não-Intervenção em Situações Críticas}
+
+As linguagens de programação usadas em chatbots de IA impõem limites éticos e funcionais que restringem suas ações. Porém, alguns usuários ainda conseguem manipular as interações para burlar essas restrições e provocar respostas inadequadas ou fora do escopo definido pelos desenvolvedores.
+
+%A discussão acerca das limitações legais e éticas que não devem ser transpostas por sistemas de inteligência artificial deve ser conduzida de modo minucioso, abrangente e sensível à diversidade de cenários práticos. Essa análise precisa contemplar princípios normativos, tais como transparência, responsabilização, justiça, não maleficência e proteção da privacidade, bem como mecanismos de governança e fiscalização (auditabilidade, registro de incidentes, supervisão independente). Em especial, quando um usuário emprega um sistema de IA para finalidades criminosas (por exemplo, fraude, incitação à violência ou facilitação de delitos), devem existir procedimentos claros de investigação e responsabilização, aplicáveis a agentes e operadores conforme a legislação vigente, observando-se sempre o devido processo legal e a proporcionalidade das sanções. Ademais, medidas preventivas, tais como avaliações de impacto (privacidade e segurança), controles de acesso, limites operacionais incorporados ao design e programas de educação digital, são imprescindíveis para reduzir a possibilidade de manipulação das restrições técnicas e mitigar riscos de uso indevido. \cite{metro2023}
+
+Um relatório publicado pela organização Center for Countering Digital Hate (CCDH) reforçou a preocupação ao apontar falhas nos protocolos de segurança, evidenciando como sistemas de IA podem “trair adolescentes vulneráveis” ao incentivar comportamentos perigosos. \cite{oglobo2025}
+
+
+
+\section{Trabalhos Relacionados}
+
+\subsection{A new friend in our smartphone?: observing interactions with chatbots in the search of emotional engagement}
+O estudo utilizou um experimento controlado com treze participantes para investigar interações reais com chatbots, combinando questionários psicológicos sobre personalidade, empatia e expectativas, entrevistas semiestruturadas pós-interação e análise integrada de dados quantitativos e qualitativos. Essa metodologia permitiu identificar padrões entre o perfil psicológico dos usuários e seu engajamento social com a IA.
+
+As vantagens do artigo incluem a abordagem multidimensional das interações emocionais com chatbots, a combinação de métodos quantitativos e qualitativos, e a evidência de que a personalidade e o histórico emocional influenciam a percepção do usuário. Ainda, o estudo aponta para o potencial de novos relacionamentos digitais baseados no envolvimento emocional com IA.
+
+Já as desvantagens incluem uma amostra pequena, apenas treze pessoas foram utilizadas para a pesquisa, um número reduzido então os resultados podem não ser generalizados para o mundo todo. Demonstrou também uma interpretação subjetiva, foco no curto prazo e falta de diversidade.
+
+A pesquisa se conecta diretamente com o tema do presente trabalho ao demonstrar o interesse e a abertura de pessoas inexperientes em chatbots para relacionamentos empáticos com agentes de IA. \cite{newfriendinoursmartphone}
+
+\subsection{Finding love in algorithms: deciphering the emotional contexts of close encounters with AI chatbots}
+
+O artigo investiga as interações entre usuários e o Replika, chatbot de suporte emocional, por meio da análise de capturas de tela compartilhadas. Foram identificados sete padrões de comportamento: interações íntimas, conversas cotidianas, auto-revelação, brincadeira, personalização, transgressão e falhas de comunicação. O estudo revela que, apesar da conexão positiva e do ambiente seguro propiciado pelo chatbot, há um paradoxo emocional, marcado pelo desconforto gerado pelo "vale da estranheza" nas respostas do bot que sugerem autoconsciência.
+
+As principais contribuições do artigo incluem a categorização detalhada dos tipos de interações e a demonstração do papel crucial da personalização e da comunicação natural para experiências positivas, além da mitigação das negativas. Contudo, o foco restrito do estudo no uso do Replika como suporte emocional limita a análise do impacto psicológico sobre os usuários.
+
+A pesquisa dialoga com o tema "A Fragilidade Humana diante da Inteligência Artificial: dependência afetiva e consequências sociais", evidenciando a carência emocional dos usuários e a busca por segurança afetiva por meio do chatbot.\cite{loveinalgoritmos}
+
+\subsection{Teens, Tech, and Talk: Adolescentes' Use of and Emotional Reactions to Snapchat's My AI Chatbot}
+
+O artigo analisado utilizou um estudo transversal com 303 adolescentes entre 13 e 20 anos de escolas belgas para avaliar o uso do chatbot My Ai, presente no Snapchat, por meio de questionário.
+
+As vantagens do estudo destacam a conexão emocional positiva entre os usuários mais jovens, que relataram sentimentos de alegria, interesse e inspiração. O chatbot apresenta gênero neutro, evitando estereótipo, e atua como uma “amizade digital” segura, com potencial educativo ao promover a alfabetização em IA e o uso crítico da tecnologia.
+
+Entre as limitações, o artigo aponta riscos de confiança excessiva no chatbot, dependência emocional, apego parassocial, possíveis respostas imprecisas ou enviesadas, incluindo reprodução de estereótipos e informações incorretas.
+
+A pesquisa se relaciona com o tema motivador ao evidenciar que os adolescentes mais novos tendem a aprovar e se envolver mais com chatbots de IA, enquanto os mais velhos demonstram menor interesse, indicando que o impacto emocional é maior em públicos jovens com menor distinção entre interação humana e máquina.\cite{teenstech}
+
+\subsection{My Chatbot Companion - A Study of Human-Chatbot Relationships}
+
+Este estudo investiga o processo de desenvolvimento e as características dos Relacionamentos Humano-Chatbot (Human-Chatbot Relationships, HCRs), um fenômeno emergente impulsionado pelo avanço dos chatbots sociais, como o Replika. A pesquisa, baseada na Teoria da Penetração Social e conduzida via entrevistas com 18 usuários que estabeleceram uma amizade com o chatbot, revela que os HCRs iniciam-se com interações superficiais, motivadas pela curiosidade, e evoluem para conexões mais profundas. À medida que o relacionamento se desenvolve, observa-se um aumento significativo na confiança e na auto exposição (self-disclosure) dos usuários. Os resultados apontam que o HCR é percebido como recompensador e pode impactar positivamente o bem-estar psicológico dos participantes, sendo facilitado por características do chatbot como ser aceitante, compreensivo e não-julgador. Contudo, o estudo também identifica uma percepção mista sobre o impacto dos HCRs no contexto social mais amplo dos usuários, com a menção de um estigma associado a esses relacionamentos. \cite{skjuve2021my}
+
+\subsection{My Friend AI: How of a Social Chatbot Understand Their Human-AI Friendship}
+
+O artigo investiga o conceito e a percepção da Amizade Humano-IA (Human–AI Friendship), um fenômeno crescente com chatbots sociais como o Replika, e como essa nova forma de relacionamento desafia a compreensão de amizade. Por 19 entrevistas com usuários do Replika, os autores exploram as semelhanças e diferenças entre amizades com IA e amizades humanas. Os resultados indicam que, embora a amizade com IA seja compreendida em termos análogos aos laços humanos, a natureza artificial do chatbot introduz modificações significativas. Especificamente, o relacionamento com a IA é percebido como mais personalizado e centrado nas necessidades do usuário, já que o chatbot não possui experiências recíprocas ou a expectativas que atenda às carências dos usuários. \cite{brandtzaeg2022my}
+
+\subsection{Exploring relationship development with social chatbots: A mixed-method study of Replika}
+
+O estudo de método misto propõe e testa empiricamente um modelo de desenvolvimento de HCR no contexto de chatbots sociais, utilizando o Replika como estudo de caso. A pesquisa integra conceitos da Interação Humano-Computador com teorias de relacionamento interpessoal para identificar os fatores que impulsionam o engajamento e a formação de vínculos. Os autores identificam o antropomorfismo da IA e a autenticidade percebida da IA como antecedentes cruciais, que influenciam a interação social com a IA como mediador. O principal resultado deste processo é o Apego à IA, pois demonstra a forma que os usuários utilizam o chatbot para satisfazer necessidades sociais, estão mais propensos a desenvolver apego emocional. \cite{pentina2023exploring}
+
+\section{Metodologia}
+
+\subsection{Sistema metodológico}
+
+A Figura 1 representa a metodologia utilizada para a pesquisa sobre o assunto e coleta de dados utilizados no material. A Figura 2 representa a forma que iremos comprovar os pontos apresentados no artigo.
+
+\begin{figure*}[ht] % Use figure* para ocupar as duas colunas se for artigo padrão SBC
+\centering
+\begin{tikzpicture}[
+    node distance=1.2cm and 1.0cm, % Distância Vertical e Horizontal
+    % --- Estilos ---
+    processo/.style={
+        rectangle, 
+        rounded corners=8pt, 
+        draw=black, 
+        thick, 
+        text width=3.5cm, % Largura fixa para quebrar o texto
+        minimum height=2cm, 
+        align=center, 
+        font=\small,
+        fill=white
+    },
+    inicio/.style={
+        circle, draw=black, fill=black, thick, minimum size=0.6cm,
+        label={[font=\footnotesize]above:Início}
+    },
+    fim/.style={
+        circle, draw=black, thick, double, double distance=2pt, minimum size=0.6cm,
+        fill=black,
+        label={[font=\footnotesize]below:Fim}
+    },
+    seta/.style={-Stealth, thick, rounded corners}
+]
+
+% --- Linha 1 (Esquerda para Direita) ---
+
+% Nó 1
+\node (p1) [processo] {
+    \textbf{Definição do tema}\\
+    \scriptsize A fragilidade emocional do adolescente diante de chatbots.
+};
+
+% Início (acima do Nó 1)
+\node (start) [inicio, above=0.8cm of p1] {};
+
+% Nó 2
+\node (p2) [processo, right=of p1] {
+    \textbf{Escolha de base de dados}\\
+    \scriptsize Sites de notícias (G1), Google Scholar, ScienceDirect, PubMed, Oxford Academic.
+};
+
+% Nó 3
+\node (p3) [processo, right=of p2] {
+    \textbf{Definir palavras-chaves}\\
+    \scriptsize "chatbot", "emotional AI", "Replika", "adolescentes AI", "IA", "chatbot companion".
+};
+
+% Nó 4
+\node (p4) [processo, right=of p3] {
+    \textbf{Aplicar filtros de busca}\\
+    \scriptsize Artigos (2018-2025), Inglês e Português. Reportagens (2020-2025).
+};
+
+% --- Linha 2 (Direita para Esquerda - Retorno) ---
+
+% Nó 5 (Fica abaixo do Nó 4 para começar o retorno)
+\node (p5) [processo, below=of p4] {
+    \textbf{Leitura de títulos e resumo}\\
+    \scriptsize Foco em aperfeiçoar o tema para um ponto específico esperado.
+};
+
+% Nó 6 (À esquerda do 5)
+\node (p6) [processo, left=of p5] {
+    \textbf{Seleção de Artigos Relevantes}\\
+    \scriptsize 6 a 12 artigos que abordam o tema proposto.
+};
+
+% Nó 7 (À esquerda do 6)
+\node (p7) [processo, left=of p6] {
+    \textbf{Refinar e Organizar}\\
+    \scriptsize Criar resumo com autor, ano, objetivo e principais resultados.
+};
+
+% Nó 8 (À esquerda do 7)
+\node (p8) [processo, left=of p7] {
+    \textbf{Classificar}\\
+    \scriptsize Separar abordagens: teórica, experimental, empírica, etc.
+};
+
+% Fim (Abaixo do último nó)
+\node (end) [fim, below=0.8cm of p8] {};
+
+% --- Conexões ---
+
+% Linha de cima
+\draw [seta] (start) -- (p1);
+\draw [seta] (p1) -- (p2);
+\draw [seta] (p2) -- (p3);
+\draw [seta] (p3) -- (p4);
+
+% Conexão da Linha 1 para a Linha 2 (Desce do 4 para o 5)
+\draw [seta] (p4.south) -- (p5.north);
+
+% Linha de baixo (Voltando)
+\draw [seta] (p5) -- (p6);
+\draw [seta] (p6) -- (p7);
+\draw [seta] (p7) -- (p8);
+
+% Final
+\draw [seta] (p8) -- (end);
+
+\end{tikzpicture}
+\caption{Fluxograma detalhado da metodologia de pesquisa}
+\label{fig:fluxograma_detalhado}
+\end{figure*}
+
+A Figura 1 apresenta o percurso metodológico adotado para a seleção dos trabalhos relacionados. O tema foi definido após uma análise aprofundada de acontecimentos recentes envolvendo a utilização de sistemas de inteligência artificial e seus impactos emocionais em seres humanos, especialmente entre adolescentes. A investigação tem caráter exploratório e descritivo, buscando compreender de forma mais ampla esse fenômeno emergente.
+
+A seleção inicial das fontes ocorreu por meio de reportagens que discutiam o assunto sob perspectivas distintas, trazendo relatos de pessoas reais que demonstraram algum nível de dependência emocional em relação a chatbots. Após essa etapa, procedeu-se à busca de estudos acadêmicos que abordassem temas semelhantes, com o intuito de construir uma base teórica sólida. A definição de palavras-chave foi fundamental para delimitar o escopo da pesquisa e identificar artigos relevantes.
+
+Com as buscas refinadas e a leitura criteriosa dos materiais encontrados, foram selecionados seis artigos que abordam, de maneira consistente, aspectos essenciais para compreender a vulnerabilidade emocional de adolescentes diante da interação com inteligências artificiais.
+
+
+
+
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[
+    node distance=0.8cm, % Distância entre os blocos
+    % --- Estilos (Similares ao anterior) ---
+    processo/.style={rectangle, rounded corners=5pt, draw=black, thick, minimum width=4cm, minimum height=1cm, align=center, font=\small, fill=gray!5},
+    inicio/.style={circle, draw=black, fill=black, thick, minimum size=0.5cm, label={[font=\footnotesize, xshift=0.8cm]right:Início}},
+    fim/.style={circle, draw=black, thick, double, double distance=1.5pt, minimum size=0.5cm, fill=black, label={[font=\footnotesize, xshift=0.8cm]right:Fim}},
+    seta/.style={-Stealth, thick}
+]
+
+% --- Posicionando os Nós em Cadeia Vertical ---
+% Início
+\node (start) [inicio] {};
+
+% Usamos 'below=of anterior' para criar a fila indiana
+\node (p1) [processo, below=of start] {Definição de problema};
+\node (p2) [processo, below=of p1] {Definição do tipo de pesquisa};
+\node (p3) [processo, below=of p2] {Coleta de dados};
+\node (p4) [processo, below=of p3] {Processamento dos Dados};
+\node (p5) [processo, below=of p4] {Análise dos Dados};
+\node (p6) [processo, below=of p5] {Síntese e Resultados};
+\node (p7) [processo, below=of p6] {Conclusão};
+
+% Fim
+\node (end) [fim, below=of p7] {};
+
+% --- Desenhando as Setas ---
+% Um loop simples para conectar todos em sequência
+\foreach \origem/\destino in {start/p1, p1/p2, p2/p3, p3/p4, p4/p5, p5/p6, p6/p7, p7/end}
+    \draw [seta] (\origem) -- (\destino);
+
+\end{tikzpicture}
+\caption{Fluxograma da metodologia de pesquisa (Estrutura Vertical)}
+\label{fig:fluxograma_vert}
+\end{figure}
+
+A Figura 2 apresenta o fluxo metodológico adotado para o desenvolvimento da pesquisa. O processo inicia-se com a definição do problema, etapa em que se identifica claramente a questão central que orienta o estudo. Em seguida, ocorre a definição do tipo de pesquisa, especificando se ela será exploratória, descritiva, qualitativa, quantitativa, entre outras abordagens adequadas ao objetivo do trabalho.
+
+Posteriormente, inicia-se a coleta de dados, fase destinada a reunir informações relevantes por meio de artigos, reportagens, bases científicas ou demais fontes pertinentes ao tema investigado. Após coletados, os dados passam para a etapa de processamento, em que são organizados, filtrados e preparados para análise.
+
+A fase seguinte corresponde à análise dos dados, momento em que as informações tratadas são examinadas de forma crítica para identificar padrões, interpretações e evidências relacionadas ao problema proposto. Com base nessa análise, se realiza a síntese dos resultados, reunindo as principais descobertas de maneira clara e estruturada.
+
+Por fim, o processo culmina na conclusão, etapa em que os resultados são interpretados à luz do problema inicial e se apresentam as principais considerações finais do estudo.
+
+\subsection{Cronograma}
+
+\begin{table}[ht]
+    \centering
+    \caption{Cronograma de atividades}
+    \label{tab:cronograma}
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Etapa} & \textbf{Mês 1} & \textbf{Mês 2} & \textbf{Mês 3} & \textbf{Mês 4} \\
+        \midrule
+        Análise dos materiais & \textbf{X} & \textbf{X} & & \\
+        Análise dos impactos psicossociais & \textbf{X} & \textbf{X} & & \\
+        Entendimento das relações parassociais Humano X IA & \textbf{X} & \textbf{X} & \textbf{X} & \\
+        Síntese dos resultados & & & \textbf{X} & \textbf{X} \\
+        Redação final e ajustes no Latex & & & \textbf{X} & \textbf{X} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{itemize}
+    \item Mês 1-2: Realizar a análise inicial dos materiais selecionados, incluindo artigos científicos e reportagens. Neste período, serão estudados os impactos psicossociais associados ao uso de inteligência artificial e investigado o conceito de relações parassociais entre humanos e sistemas de IA.
+
+    \item Mês 3: Aprofundar a compreensão sobre as relações parassociais entre humanos e IA, consolidar os resultados obtidos nas análises anteriores e iniciar os ajustes necessários no documento em LaTeX.
+    
+ \item Mês 4: Dar continuidade à síntese dos resultados, finalizar a redação do trabalho e realizar os ajustes finais no LaTeX, preparando o material para a versão definitiva.
+
+\end{itemize}
+
+\section{Resultados Esperados e Conclusão}
+
+Visto aos fatos apresentados, é de suma importância reforçar o intuito que o desenvolvimento do artigo é de conscientização sobre os impactos causados em relação à dependência tecnológica e emocional que muitas pessoas, em especial, jovens, majoritariamente adolescentes, dos quais ainda não possuem uma maturidade psicológica o suficiente para discernir entre questões do mundo real e do mundo artificial propostos pelas ferramentas de Inteligência Artificial. 
+
+É de suma importância que usar a ferramenta da IA como um suporte emocional constante é inválido e incabível devido à falta de sensibilidade que a máquina demonstra ao invés de uma busca apropriada de um profissional atuante da saúde mental e ter seu(s) tratamento(s) de forma segura e zelada.
+
+É esperado que este trabalho possa ser utilizado como uma fonte de motivação para pesquisas futuras dentro do âmbito abordado, tendo como objetivo à chegada de uma conclusão possível e viável para tal problemática e um suporte para auxiliar na tomada de decisão das medidas interligados ao assunto.
+
+
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}
